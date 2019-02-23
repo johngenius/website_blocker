@@ -4,9 +4,7 @@ from datetime import datetime as dt
 host_temp = r"C:\PYTHON PROJECTS\PRACTICES\Website Blocker\hosts"
 host_path = r"C:\Windows\System32\drivers\etc\hosts"
 redirect = "127.0.0.1"
-website_list = ["hqbutt.com", "www.hqbutt.com", "facebook.com", "www.facebook.com",
-"pornhub.com", "www.pornhub.com", "www.porn300.com", "porn300.com", "youtube.com",
-"www.youtube.com", "xvideos.com"]
+website_list = ["facebook.com", "www.facebook.com","youtube.com", "www.youtube.com"]
 
 while True:
     if dt(dt.now().year, dt.now().month, dt.now().day, 8) < dt.now() < dt(dt.now().year,
